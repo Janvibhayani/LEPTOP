@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            background-image: url('login.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+    header {
+    background-color: #366ef1;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items:center;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+    font-size: 25px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+li :hover{
+    color: red;
+} 
+ .table{
+     color: azure;
+     margin: 30px;
+     }
+ button{
+     border-radius: 10px;
+     padding: 10px;
+     justify-content: center;
+     }
+    
+    </style>
+    </head>
+<body>
+    <header>
+        <img src="download.png" width="5%">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery page.html">Gallery </a></li>
+                <li><a href="about page.html">About us</a></li>
+                <li><a href="contact page.html">Contact us</a></li>
+                <li><a href="Login page.html">Login</a></li>
+             </nav>
+    </header>
+     <div class="table">
+        <form action="">
+        <table><tr>
+            <td colspan="2"><lable style="margin: 65px; font-size: 30px;">Registration</lable></td></tr>
+            <tr><td>FIRST NAME</td>
+                <td><input type="name" id="first nme" placeholder=" "  required></td></tr>
+            <tr><td>LAST NAME</td>
+                <td><input type="name" id=" last name" placeholder=" " required></td></tr>
+            <tr><td>PASSWORD</td>
+                <td><input type="password" id="password" placeholder="" required></td></tr>
+            <tr><td>E-MAIL ID</td>
+               <td><input type="email" id=" e-mail" required></td></tr>
+           <tr> <td colspan="2">
+        <button style="margin-left: 40px;" type="submit" onclick="solve()"><B>Create Account</B></button></td></tr>
+        </table>
+        </form>
+     </div>
+</body>
+</html>
